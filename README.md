@@ -1,5 +1,6 @@
-<html lang="zh-CN">
+html lang="zh-CN">
   <head>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My World</title>
@@ -26,4 +27,25 @@
   <audio src="music/陈奕迅-富士山下.mp3" controls="controls" autoplay hidden="true" style="display:none;"/>
 </div>
   </body><center>
+    
+<script>
+  $(document).ready(function() {  
+    $(".xwcms").removeClass("animation");
+    $(".xwcms").on("click", function() {
+      $(".xwcms").addClass("animation");
+      $(this).toggleClass("pause");
+      var audio = $("#music audio")[0];
+      if (audio.paused) {
+        $(".xwcms").addClass("animation");
+        audio.play();
+      } else {
+        $(".xwcms").removeClass("animation");
+        audio.pause();
+      }
+      audio.addEventListener('ended', function () {  
+        $(".xwcms").removeClass("animation");
+      }, false);
+    });
+  });
+</script>
 </html>
