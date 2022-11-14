@@ -18,5 +18,4 @@
    <div style="background-color:#F5F5DC;height:800px">
    </div>
    <div style="background-color:#00FFFF;height:100px"></div>
-  </body><center>
-</html>
+<center>
