@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
@@ -13,12 +12,11 @@
   <body><center>
     <h1 style="background-color:brown ">世界是我们的
     </h1>
-    <img src="C:\Users\HUAWEI\Pictures\Camera Roll\wallhaven-qzdqvr.jpg" width="50%" height="50%"
+    <img src="C:\Users\HUAWEI\Pictures\Camera Roll\wallhaven-qzdqvr.jpg" width="auto" height="auto"
      ait="服了" width='400px' heiht="400px">
-    </img>
     <div>
    <div style="background-color:#F5F5DC;height:800px">
    </div>
-   <div style="background-color:#00FFFF;height:100px"
+   <div style="background-color:#00FFFF;height:100px"></div>
   </body><center>
 </html>
