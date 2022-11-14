@@ -1,5 +1,4 @@
-html lang="zh-CN">
-  <head>
+<head>
     <script src="js/jquery-1.11.3.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,14 +18,13 @@ html lang="zh-CN">
    <div style="background-color:#F5F5DC;height:800px">
    </div>
    <div style="background-color:#00FFFF;height:100px"></div>
-   div id="music">
   <audio id="myAudio" autoplay="autoplay">
     <source src="music/陈奕迅-富士山下.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
   <audio src="music/陈奕迅-富士山下.mp3" controls="controls" autoplay hidden="true" style="display:none;"/>
 </div>
-  </body><center>
+<center>
     
 <script>
   $(document).ready(function() {  
@@ -48,4 +46,3 @@ html lang="zh-CN">
     });
   });
 </script>
-</html>
