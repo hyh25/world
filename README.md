@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
 <head>
-   <title>Operation Aborted Example</title>
-    <style>
-        body{
-            margin: 0;
-        }
-        #video{
-            position:fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            -webkit-filter:grayscale(100%);
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My World</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
 </head>
+
 <body>
-
-<div id="div">
-    <video id="video" muted src="C:\Users\HUAWEI\Videos\星际穿越版 新增三种.mp4" autoplay loop>您的浏览器不支持\&lt; video&gt;元素</video>
-</div>
-
-<<script>
-    var video= document.getElementById('video');
-    video.playbackRate = 0.5;
-</script>
-
+  <center>
+    <h1 style="background-color:brown ">欢迎来到我的世界</h1>
+    <img src="C:\Users\HUAWEI\Pictures\Camera Roll\wallhaven-qzdqvr.jpg" width="100%" height="1000%" width='400px'
+      heiht="400px">
+    <div>
+      <embed src="陈奕迅 - 富士山下.mp3" hidden="ture" autostart="true" loop="true">
+    </div>
+    </div>
+    <div style="background-color:#f5f2dc;
+   height:800px">
+    </div>
+    <div style="background-color:#00FFFF;
+             height:100px" </div>
 </body>
+
 </html>
